@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QTableView" name="tableView"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuSoubor">
+    <property name="title">
+     <string>Soubor</string>
+    </property>
+    <addaction name="actNovy"/>
+    <addaction name="actOtev"/>
+    <addaction name="separator"/>
+    <addaction name="actExit"/>
+   </widget>
+   <widget class="QMenu" name="menuDatab_ze">
+    <property name="title">
+     <string>Databáze</string>
+    </property>
+    <addaction name="actMista"/>
+    <addaction name="actZaznam"/>
+   </widget>
+   <addaction name="menuSoubor"/>
+   <addaction name="menuDatab_ze"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actNovy">
+   <property name="text">
+    <string>Nový</string>
+   </property>
+  </action>
+  <action name="actOtev">
+   <property name="text">
+    <string>Otevřít</string>
+   </property>
+  </action>
+  <action name="actExit">
+   <property name="text">
+    <string>Ukončit</string>
+   </property>
+  </action>
+  <action name="actMista">
+   <property name="text">
+    <string>Vybrat počet míst</string>
+   </property>
+  </action>
+  <action name="actZaznam">
+   <property name="text">
+    <string>Upravit záznam</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
